@@ -1,0 +1,51 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);;
+}
+form{
+    background-color: #fff;
+    margin-top: 25px;
+    padding: 25px;
+    margin-left: 30%;
+    margin-right:30%;
+    border-radius: 5px;
+
+}
+
+form >h1{
+    text-align: center;
+    padding-bottom: 5%;
+}
+#namefield{
+    width: 95%;
+}
+.sign__in > input{
+    padding:10px;
+    outline:none;
+    border:1px solid black;
+    border-radius: 5px;
+    line-height: 15px;
+
+}
+.credentials > input{
+    padding:10px;
+    outline:none;
+    border:1px solid black;
+    border-radius: 5px;
+    line-height: 15px;
+}
+.credentials{   
+    padding:10px 0;
+}
+.credentials>#mobile{
+    margin-right: 10%;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
